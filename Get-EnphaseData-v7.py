@@ -141,6 +141,7 @@ def main():
 
     print('')
     print(json.dumps(result))
+    #print(json.dumps(result, indent=4)) # Pretty - for dev and testing
 
 
 def getToken(token):
